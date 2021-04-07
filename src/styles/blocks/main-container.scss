@@ -1,5 +1,7 @@
 .main-container {
-  display: flex;
-  justify-content: center;
   padding-top: 50px;
+
+  &__content {
+    margin: auto;
+  }
 }

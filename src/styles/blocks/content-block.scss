@@ -1,11 +1,7 @@
 .content-block {
-  display: flex;
+  display: grid;
   justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  width: 248px * 4;
-
-  &__product-card {
-    margin: 0 24px 50px;
-  }
+  grid-template-columns: repeat(auto-fill, 200px);
+  gap: 50px 48px;
+  max-width: 200px * 4 + 48 * 3;
 }
